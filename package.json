@@ -1,0 +1,22 @@
+{
+  "name": "swapx_factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "build": "truffle build",
+    "compile": "truffle compile",
+    "serve": "ganache-cli",
+    "flatten": "truffle run flatten contracts/PresaleV1Factory.sol",
+    "size": "truffle run contract-size --contracts PresaleV1Factory"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-flatten": "^1.0.8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
